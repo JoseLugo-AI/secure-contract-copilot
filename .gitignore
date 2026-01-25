@@ -1,0 +1,41 @@
+﻿# Environment Secrets (CRITICAL)
+.env
+.env.test
+.env.production
+
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+bin/
+lib/
+share/
+
+# Python Cache & Metadata
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Local Data & Temp Files
+temp_contract.pdf
+test_contract.pdf
+*.log
+.DS_Store
+
+# Streamlit
+.streamlit/
