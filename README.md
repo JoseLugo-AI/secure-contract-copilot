@@ -30,7 +30,7 @@ Designed to meet the rigorous standards of defense contracting and international
 ## 🛡️ Security & Hardening (CISSP Mindset)
 This project focuses on the **Confidentiality** and **Economic Sustainability** of AI operations:
 
-* **Surgical Redaction:** Unlike standard cloud-based redaction, our local `re` (Regex) layer ensures that sensitive names like "Jose Lugo Velazquez" are never transmitted to the API provider.
+* **Surgical Redaction:** Unlike standard cloud-based redaction, our local `re` (Regex) layer ensures that sensitive names like "Jose Lugo" are never transmitted to the API provider.
 * **Least Privilege Access:** Configured for Azure OpenAI using specific deployment nicknames, preventing unauthorized model access.
 * **Zero Persistence:** Temporary PDF buffers are programmatically cleared after analysis to prevent data remnants on disk.
 * **Dual-Validation:** Combines Azure AI Vision (for layout) with GPT-4o (for logic) to verify "hidden" risks that standard OCR might miss.
